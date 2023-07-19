@@ -12,11 +12,15 @@ import { LoginPageForm } from './login.page.form';
 export class LoginPage implements OnInit {
 
   form!: FormGroup;
-
-  constructor(private router: Router, private formBuilder: FormBuilder) { }
+  email: string; //sa email save sa console
+  password: string; //sa psw save  sa console
+  
+  constructor(private router: Router, private formBuilder: FormBuilder) { 
+    
+  }
   
   /*public form = {
-    Username: "",
+    email: "",  //sa forms to
     Password: ""
   }*/
 
@@ -26,7 +30,15 @@ export class LoginPage implements OnInit {
   login() {
     this.router.navigate(['dashboard']);
   }
-  /*print() {
-    console.log(this.form);
-  }*/
+  login2() {
+    this.router.navigate(['dashboard2']);
+  }
+  login3() {
+    this.router.navigate(['admin-dashboard']);
+  }
+  print() {
+    //console.log(this.form); // pag sa forms to
+    console.log('Email: ',this.email);
+    console.log('Password: ', this.password);
+  }
 }

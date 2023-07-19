@@ -1,0 +1,33 @@
+
+
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button> </ion-back-button>
+      </ion-buttons>
+      
+    </ion-toolbar>
+  </ion-header>
+  <ion-toolbar> <ion-title size="large" color="black">Add Student</ion-title></ion-toolbar>
+ 
+
+<ion-content>
+<ion-item>
+  <ion-input label="Student Name :" [clearInput]="true" placeholder="Enter Student Name "></ion-input>
+</ion-item>
+<ion-item>
+  <ion-input label="Student Email :"  [clearInput]="true" placeholder="Enter Student Email " ></ion-input>
+  
+</ion-item>
+<ion-item>
+  <ion-input label="Student Password :" placeholder="Enter Student Password "></ion-input>
+</ion-item>
+<ion-item>
+  <ion-input label="Confirm Password :" placeholder="Enter Confirm Password "></ion-input>
+</ion-item>
+  
+
+<ion-button class="add"  expand="block"  >Save</ion-button>
+<ion-button class="add" [routerLink]="['/view-student']" expand="block"  >Cancel</ion-button>
+</ion-content>

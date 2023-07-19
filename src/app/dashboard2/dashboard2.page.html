@@ -1,0 +1,143 @@
+<ion-menu class = "menu-background" contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content > <ion-menu-toggle>
+    <ion-button  class="menu-content" [routerLink]="['/studentlist']" color="success">
+      Student List     <ion-icon name="people-outline"></ion-icon></ion-button>
+    <ion-button  class="menu-content" [routerLink]="['/upload']" color="success">
+      Upload Module <ion-icon name="book-outline"></ion-icon></ion-button>
+    <ion-button  class="menu-content" [routerLink]="['/quiz']" color="success">
+      Upload Quiz    <ion-icon name="cloud-upload-outline"></ion-icon></ion-button>
+      <ion-button  class="menu-content2" id="open-loading3" [routerLink]="['/home']" color="success">
+        Sign out  <ion-icon name="log-out-outline"></ion-icon></ion-button>
+      <ion-loading trigger="open-loading3" message="Logging out..." [duration]="2000" spinner="circles"></ion-loading>
+    
+  </ion-menu-toggle></ion-content>
+ 
+</ion-menu>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+        
+      </ion-buttons>
+      <ion-title>Dashboard</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <div class="top">
+      <div >
+        <img class="ImageThumbnail" src="../../../assets/me1.png" />
+        <img class="background" src="assets\images1.jpeg" alt="">
+    </div>
+      <div class="nameText">
+          <p> <span>Welcome Prof. Intac</span></p>
+          <h6>Masters In Information Technology</h6>
+          <small>SY: 2023-2024</small>
+      </div>
+
+      
+    </div>
+    <ion-card class="info">
+      <ion-card-header>
+        <ion-card-title></ion-card-title>
+        <ion-card-subtitle>Prof. Kirk Jason G. Intac</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        Hi, Im Prof. Kirk Jason Intac
+      </ion-card-content>
+    </ion-card>
+    <!--<div class="middleBox">
+        <div class="firstDiv">
+          <img src="../../../assets/boy.png">
+          <p>97.89%</p>
+          <h6>Attendance</h6>
+        </div>
+        <div class="secondDiv">
+          <img src="../../../assets/check.png">
+          <p>Enrolled</p>
+          <h6>in Class</h6>
+        </div>
+    </div>-->
+
+    
+
+    
+
+    
+  
+    <ion-content class="classcard  ion-padding"  >
+      <div class="ion-content-scroll-host ion-padding">
+        <h1 class="head">COURSES OFFERED</h1>
+        <ion-card>
+          <img class="imgcard"  alt="programming" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" />
+          <ion-avatar class="avatar">
+            <img alt="prof1" src="../../../assets/me1.png" />
+          </ion-avatar>
+          <ion-card-header>
+            <ion-card-title class="cardtext">CS 111 Computer Programming</ion-card-title>
+            <ion-card-subtitle class="cardtext">Prof. Kirk Jason Intac</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content class="cardtext">
+      
+          </ion-card-content>
+        </ion-card>
+        
+        <ion-card>
+          <img class="imgcard"  alt="a programming" src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80" />
+          <ion-avatar class="avatar">
+            <img alt="prof1" src="../../../assets/me1.png" />
+          </ion-avatar>
+          <ion-card-header>
+            <ion-card-title class="cardtext">CS 121 Advance Computer Programming</ion-card-title>
+            <ion-card-subtitle class="cardtext">Prof. Kirk Jason Intac</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content class="cardtext">
+            
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <img class="imgcard" alt="dsa" src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=906&q=80" />
+          <ion-avatar class="avatar">
+            <img alt="prof1" src="../../../assets/me1.png" />
+          </ion-avatar>
+          <ion-card-header>
+            <ion-card-title class="cardtext">CS 131 Data Structures and Algorithms</ion-card-title>
+            <ion-card-subtitle class="cardtext">Prof. Kirk Jason Intac</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content class="cardtext">
+          
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <img class="imgcard" alt="dsa" src="https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" />
+          <ion-avatar class="avatar">
+            <img alt="prof1" src="../../../assets/me1.png" />
+          </ion-avatar>
+          <ion-card-header>
+            <ion-card-title class="cardtext">IT 323 Information Assurance and Security</ion-card-title>
+            <ion-card-subtitle class="cardtext">Prof. Kirk Jason Intac</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content class="cardtext">
+          
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-content>
+    
+<ion-footer class="footer" [translucent]="true">
+      <ion-toolbar>
+        <ion-title>Dreamin Big, Doing Great, Soaring High</ion-title>
+      </ion-toolbar>
+  </ion-footer>
+    
+
+  
+

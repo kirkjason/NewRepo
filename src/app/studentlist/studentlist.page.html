@@ -1,0 +1,115 @@
+<ion-content [fullscreen]="true">
+  <div class="top">
+    <div class="back_div">
+      <ion-icon name="arrow-back-outline" (click)="goBack()" color="light"
+      class="back_btn"></ion-icon>
+      <ion-label color="light">Student List</ion-label>
+    </div>
+  </div>
+
+  <div class="content_div">
+    <ion-grid>
+      <ion-row>
+        <ion-col size=12>
+          <p class="lbl">Student List</p>
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail slot ="start" [style.backgroundImage]="'url(https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80)'">
+              </ion-thumbnail>
+              <ion-label>
+                <h2>Kirk Jason Intac<span style="float:right">
+                 <ion-icon name="ellipsis-vertical-outline" (click)="presentPopover($event)"></ion-icon>
+                  </span></h2>
+                <p id="rate">CS</p>
+                <p id="rate">CS 121</p>
+                <p>Student No.1234</p>
+                
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail slot ="start" [style.backgroundImage]="'url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80)'">
+              </ion-thumbnail>
+              <ion-label>
+                <h2>Jeny Ramos<span style="float:right">
+                 <ion-icon name="ellipsis-vertical-outline" (click)="presentPopover($event)"></ion-icon>
+                  </span></h2>
+                <p id="rate">IT</p>
+                <p id="rate">CS 131</p>
+                <p>Student No.1999</p>
+                
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail slot ="start" [style.backgroundImage]="'url(https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80)'">
+              </ion-thumbnail>
+              <ion-label>
+                <h2>Jason Bond<span style="float:right">
+                 <ion-icon name="ellipsis-vertical-outline" (click)="presentPopover($event)"></ion-icon>
+                  </span></h2>
+                <p id="rate">IT</p>
+                <p id="rate">CS 131</p>
+                <p>Student No.1909</p>
+                
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail slot ="start" [style.backgroundImage]="'url(https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=461&q=80)'">
+              </ion-thumbnail>
+              <ion-label>
+                <h2>Leny Rose<span style="float:right">
+                 <ion-icon name="ellipsis-vertical-outline" (click)="presentPopover($event)"></ion-icon>
+                  </span></h2>
+                <p id="rate">IT</p>
+                <p id="rate">CS 111</p>
+                <p>Student No.1239</p>
+                
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail slot ="start" [style.backgroundImage]="'url(https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80)'">
+              </ion-thumbnail>
+              <ion-label>
+                <h2>Paul Havard<span style="float:right">
+                 <ion-icon name="ellipsis-vertical-outline" (click)="presentPopover($event)"></ion-icon>
+                  </span></h2>
+                <p id="rate">IT</p>
+                <p id="rate">CS 111</p>
+                <p>Student No.2399</p>
+                
+              </ion-label>
+            </ion-item>
+          </ion-list>
+          <ion-list>
+            <ion-item>
+              <ion-thumbnail slot ="start" [style.backgroundImage]="'url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80)'">
+              </ion-thumbnail>
+              <ion-label>
+                <h2>Queen Rain<span style="float:right">
+                 <ion-icon name="ellipsis-vertical-outline" (click)="presentPopover($event)"></ion-icon>
+                  </span></h2>
+                <p id="rate">CS</p>
+                <p id="rate">CS 131</p>
+                <p>Student No.1049</p>
+                
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <ion-footer class="footer" [translucent]="true">
+    <ion-toolbar>
+      <ion-title>Dreamin Big, Doing Great, Soaring High</ion-title>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>

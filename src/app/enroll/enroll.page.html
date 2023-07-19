@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar class="bg-color">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/dashboard" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="head-title" color="light">
+      Enroll to Class
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label>Choose a Class:</ion-label>
+    <ion-select [(ngModel)]="selectedClass">
+      <ion-select-option value="CS 111 Computer Programming">CS 111</ion-select-option>
+      <ion-select-option value="CS 121 Advance Computer Programming">CS 121</ion-select-option>
+      <ion-select-option value="CS 131 Data Structures and Algorithms">CS 131</ion-select-option>
+      <ion-select-option value="IT 323 Information Assurance and Security">IT 323</ion-select-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Your Name</ion-label>
+    <ion-input type="text" [(ngModel)]="studentName"></ion-input>
+  </ion-item>
+
+  <ion-button color="success" expand="full" (click)="enroll()">Enroll Now</ion-button>
+</ion-content>
+
+<ion-footer class="footer">
+  <ion-toolbar>
+    <ion-title>Dreamin Big, Doing Great, Soaring High</ion-title>
+  </ion-toolbar>
+</ion-footer>

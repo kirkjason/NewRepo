@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend:wght@100&family=Satisfy&display=swap');
+ion-content {
+    --ion-background-color: #fff;
+  }
+  .bg-color{
+    --background: #0d331f;
+  }  
+  .headtitle{
+    color: #fff;
+  }
+  ion-button {
+    margin-top: 20px;
+  }
+  
+  ion-item {
+    --padding-start: 12px;
+    --padding-end: 12px;
+  }
+  
+  ion-select {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  
+  ion-select::part(icon) {
+    color: #007bff;
+  }
+  
+  ion-input {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+  }
+.footer{
+  margin-top: 415px;
+  
+  ion-toolbar{
+    --background: #0d331f;
+  }
+  ion-title{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+  }
+}
+
+  

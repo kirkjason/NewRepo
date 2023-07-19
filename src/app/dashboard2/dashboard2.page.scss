@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend:wght@100&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+ion-content{
+    font-family: sans-serif;
+    --background: linear-gradient(112.1deg, rgb(5, 141, 0) 11.4%, rgb(14, 90, 21) 11.4%);
+    .menu_btn{
+        position: relative;
+        top: 40px;
+        left:10px;
+    
+    }
+    .menu-background{
+        background:white; 
+    
+    }
+    .menu-content{
+        width: 300px;
+        color:#f5f6f8;
+      
+    
+        top: 100px;
+        left: 120px;
+        font-size: 15px;
+        }
+    .menu-content2{
+            width: 300px;
+            color:#f5f6f8;
+        
+            margin-top: 520px;
+            top: 100px;
+            left: 120px;
+            font-size: 15px;
+            }
+    .ImageThumbnail{
+        position: absolute;
+        display: flex;
+        width:100px ;
+        height: 100px;
+        margin-top: 70px;
+        margin-left: 25px;
+        z-index: 1;
+        
+    }
+    .background{
+        width: 345px;
+        height: 130px;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        z-index: -1;
+    }
+    }
+    .top{
+        
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        .nameText{
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 0px;
+            p{
+                color: #fff;
+                margin-left: 25px;
+                font-size: 24px;
+                span{
+                    font-weight: bold;
+                }
+            }
+            h6{
+                margin-left: 25px;
+                        font-size: 16px;
+                        margin-top: -26px;
+                        color: #cccccc;
+            }
+            small{
+                margin-left: 25px;
+                margin-top: --80px !important;
+                color: #2855ae;
+                background-color: #fff;
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+            .imageThumbnail{
+                position: absolute;
+                width: 60px;
+                height:60px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                margin-right: 20px imo !important;
+                margin-top:200px ;
+                
+            }
+        }
+    }
+    .middleBox{
+        color: black;
+        position: absolute;
+        width: 150px ;
+        height: 100px ;
+        top: 270px;
+        object-position: center ;
+        margin-top: 20px;
+        margin-left: 10px;
+        box-shadow: 3px 3px 3px 2px #166b1d;
+        p{
+            color: #000;
+            font-size: 10px;
+            
+        }
+      
+    }
+    .firstDiv{
+        position: absolute;
+        height: auto;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #2855ae;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 60px;
+            height: 60px;
+            margin-top: 10px;
+        }
+        p{
+           
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h6{
+            margin-top: -25px;
+            color: #000000;
+        }
+    }
+    .secondDiv{
+        color: black;
+        position: absolute;
+        height: 157px;
+        background-color: #fff;
+        width: 145px;
+        border-radius: 10px;
+        border: 1px solid #2855ae;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        margin-left:180px ;
+        img{
+            width: 60px;
+            height: 60px;
+            margin-top: 20px;
+        }
+        p{
+           
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h6{
+            margin-top: -25px;
+            color: #000000;
+        }
+
+    
+    }
+    .bottonDiv{
+        position: absolute;
+        height: auto;
+        background-color: #fff;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-top: -70px;
+        padding-top: 120px;
+        padding-bottom: 20px;
+        margin-top: 200px;
+    }
+        .gridDiv{
+            display: grid;
+            grid-template-columns: 49% 49%;
+            grid-gap: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .box{
+            background-color: #f5f6fc;
+            border-radius: 15px;
+            height: 150px;
+            padding: 20px;
+            img{
+                width: 60px;
+                height: 60px;
+                margin-top: 10px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            p{
+                color: #2855ae;
+                text-align: center;
+            }
+        }
+    .info{
+        position: relative;
+        margin-top:275px;
+    }
+    h1{
+        .head{
+            color: #000;
+        }
+    }
+    
+    .classcard{
+        --background: linear-gradient(315deg, #378b29 0%, #ffffff 74%);
+        margin-left: 0;
+        margin-top:700px;
+        border-radius: 4px;
+       
+    }
+    .imgcard{
+        position: absolute;
+        max-width: 100%;
+        height: auto;
+    }
+    .avatar{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 200px;
+        align-items: right;
+    }
+    .cardtext{
+        font-size: large;
+        position: relative;
+        color: #fff;
+        justify-content: left;
+    }
+    
+    
+    .ion-content-scroll-host {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: 0;
+        height: 100%;
+        width: 100%;
+        overflow-y: auto;
+      }
+      h1{
+        font-family: 'Old Standard TT', serif;
+        color: #000;
+      }
+      h2{
+        color: #fff;
+    }
+
+.footer{
+  margin-top: 1px;
+  
+  ion-toolbar{
+    --background: #0d331f;
+  }
+  ion-title{
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+  }
+}
+
+

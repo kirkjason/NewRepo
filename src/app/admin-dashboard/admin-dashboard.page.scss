@@ -1,0 +1,98 @@
+.menu-button{
+    width: 80%;
+    border-radius: 40px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ion-content{
+    font-family: sans-serif;
+    --background: linear-gradient(112.1deg, rgb(5, 141, 0) 11.4%, rgb(14, 90, 21) 11.4%);
+    .menu_btn{
+        position: relative;
+        top: 40px;
+        left:10px;
+    
+    }
+    .menu-background{
+        background:white; 
+    
+    }
+    .menu-content{
+        width: 300px;
+        color:#f5f6f8;
+      
+    
+        top: 100px;
+        left: 120px;
+        font-size: 15px;
+        }
+    .ImageThumbnail{
+        position: absolute;
+        display: flex;
+        width:100px ;
+        height: 100px;
+        margin-top: 70px;
+        margin-left: 25px;
+        z-index: 1;
+        
+    }
+    .background{
+        width: 345px;
+        height: 130px;
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        z-index: -1;
+    }
+    }
+    .top{
+        
+        display:flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        .nameText{
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 0px;
+            p{
+                color: #fff;
+                margin-left: 25px;
+                font-size: 24px;
+                span{
+                    font-weight: bold;
+                }
+            }
+            h6{
+                margin-left: 25px;
+                        font-size: 16px;
+                        margin-top: -26px;
+                        color: #cccccc;
+            }
+            small{
+                margin-left: 25px;
+                margin-top: --80px !important;
+                color: #2855ae;
+                background-color: #fff;
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+            .imageThumbnail{
+                position: absolute;
+                width: 60px;
+                height:60px;
+                border-radius: 50%;
+                border: 2px solid #fff;
+                margin-right: 20px imo !important;
+                margin-top:200px ;
+                
+            }
+        }
+    }
+    .list{
+   
+        margin-top: 10%;
+        margin-left: 0%;
+        width: 95%;
+        margin-bottom: 10%;
+        }

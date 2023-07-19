@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button> </ion-back-button>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+<ion-toolbar> <ion-title size="large" color="black">Add Module</ion-title></ion-toolbar>
+
+
+<ion-content>
+  <div class="add">
+  <ion-item>
+    <ion-input label="Course :" [clearInput]="true" placeholder="Enter Course "></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label=" New Module :"  [clearInput]="true" placeholder=" Enter New Module " ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label=" New Topic:" [clearInput]="true" placeholder="Enter New Topic "></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Topic New Content :"  [clearInput]="true" placeholder="Enter New Content " ></ion-input>
+  </ion-item>
+      
+      </div>
+  <ion-button class="addbutton"  expand="block"  >Save</ion-button>
+  <ion-button class="addbutton" [routerLink]="['/add-module']" expand="block"  >Cancel</ion-button>
+

@@ -1,53 +1,69 @@
-<ion-menu contentId="main-content">
+<ion-menu class = "menu-background" contentId="main-content">
   <ion-header>
     <ion-toolbar>
-      <ion-title>Content</ion-title>
+      <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content class="ion-padding">This is the menu content.</ion-content>
+  <ion-content > <ion-menu-toggle>
+    <ion-button  class="menu-content" [routerLink]="['/viewbooks']" color="success">
+      View Books<ion-icon name="book-outline"></ion-icon>  </ion-button>
+      <ion-button  class="menu-content" [routerLink]="['/enroll']" color="success">
+        Enroll to Class <ion-icon name="laptop-outline"></ion-icon>  </ion-button>
+    <ion-button  class="menu-content2" id="open-loading3" [routerLink]="['/home']" color="success">
+      Sign out  <ion-icon name="log-out-outline"></ion-icon></ion-button>
+    <ion-loading trigger="open-loading3" message="Logging out..." [duration]="2000" spinner="circles"></ion-loading>
+    
+  </ion-menu-toggle></ion-content>
+ 
 </ion-menu>
 <div class="ion-page" id="main-content">
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot="start">
         <ion-menu-button></ion-menu-button>
+        
       </ion-buttons>
       <ion-title>Dashboard</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content class="ion-padding"> 
+  <ion-content class="ion-padding">
     <div class="top">
+      <div >
+        <img class="ImageThumbnail" src="../../../assets/me1.png" />
+        <img class="background" src="assets\images1.jpeg" alt="">
+    </div>
       <div class="nameText">
-          <p>hi <span>Kirk</span></p>
+          <p> <span>Kirk Jason Intac</span></p>
           <h6>Class IT-3305</h6>
-          <small>2023-2024</small>
-      </div>
-      <div class="ImageThumbnail">
-          <img src="assets\me.jpg" />
+          <small>SY: 2023-2024</small>
       </div>
     </div>
+    
     <div class="middleBox">
         <div class="firstDiv">
-          <img src="assets\boy.png">
-          <p>100%</p>
+          <img src="../../../assets/boy.png">
+          <p>94.37%</p>
           <h6>Attendance</h6>
         </div>
         <div class="secondDiv">
-          <img src="assets\q.png">
+          <img src="../../../assets/check.png">
           <p>Enrolled</p>
-          <h6>Classes</h6>
+          <h6  >Classes</h6>
         </div>
     </div>
 
-    <div class="bottomDiv">
-      <div class="gridDiv">
-        <div class ="box" *ngForm="let item of the menu" onclick="goToPage(menu.menu_id)"?>
-          <img src="assets\{{menu.image}}" />
-          <p>{{menu.title}}</p>
-        </div> 
-      </div>
-    </div>
-  </ion-content>
-</div>
+    <ion-card class="tdcard">
+      <ion-button fill="clear" [routerLink]="['/todo']"  >To-Do</ion-button>
+      <ion-button fill="clear"[routerLink]="['/datetime']">Calendar</ion-button>
+    </ion-card>
+  <ion-footer class="footer" [translucent]="true">
+      <ion-toolbar>
+        <ion-title>Dreamin Big, Doing Great, Soaring High</ion-title>
+      </ion-toolbar>
+  </ion-footer>
+    
+  
+</ion-content> 
+
   
 

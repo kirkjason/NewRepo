@@ -12,6 +12,9 @@ describe('LoginPageForm', () => {
     })
 
     it('should create login form empty', () => {
+        const loginPageForm = new LoginPageForm(new FormBuilder());
+        const form = loginPageForm.createForm();
+        
         expect(form).not.toBeNull();
         expect(form.get('email')).not.toBeNull();
         expect(form.get('email')?.value).toEqual("");

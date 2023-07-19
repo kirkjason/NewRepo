@@ -9,42 +9,21 @@ export class DashboardPage implements OnInit {
 menu:any = [
   {
     "menu_id": "1",
-    "image": "assets\q.png",
-    "title": "Play Quiz"
+    "image": "lesson.png",
+    "title": "View Assignments"
   },
   {
     "menu_id": "2",
-    "image": "assets\nb.png",
-    "title": "play Quiz"
+    "image": "q.png",
+    "title": "Answer Quiz"
 
   },
   {
     "menu_id": "3",
-    "image": "logo.jpeg",
-    "title": "Play Quiz"
+    "image": "student.png",
+    "title": "View Classmates"
   },
-  {
-    "menu_id": "4",
-    "image": "logo.jpeg",
-    "title": "Play Quiz"
-
-  },
-  {
-    "menu_id": "5",
-    "image": "logo.jpeg",
-    "title": "Play Quiz"
-  },
-  {
-    "menu_id": "6",
-    "image": "logo.jpeg",
-    "title": "Play Quiz"
-
-  },
-  {
-    "menu_id": "7",
-    "image": "logo.jpeg",
-    "title": "Play Quiz"
-  }
+  
 
 ]
   constructor() { }

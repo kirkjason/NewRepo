@@ -1,19 +1,29 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      SPSHSI
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 <ion-content class="auth-form">
-  <img class="logo" src="assets\logo.jpg" alt="">
-  <ion-grid>
-    <ion-row>
-      <ion-col align-self-center>
-        <ion-button class="regbut" [routerLink]="['/registration']" expand="block" color="primary">Register</ion-button>
-        <span class="p">or Already a User</span>
-        <ion-button class="logbut" [routerLink]="['/login']" expand="block" color="danger">Sign In</ion-button>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+  <img class="logo" src="assets\images.jpeg" alt="">
+  <img class="logo1" src="assets\images1.jpeg" alt="">
+  <ion-card class="card" >
+    <ion-card-header>
+      <ion-card-title > 
+        <ion-grid>
+          <ion-row>
+            <ion-col align-self-center>
+              <ion-button class="regbut" [routerLink]="['/registration']" expand="block" id="click-trigger">
+                <ion-icon class="iconregis" name="open-outline"></ion-icon>  REGISTER</ion-button>
+              <br>
+              <span class="p">Already a user?</span>
+              <br>
+              <ion-button class="logbut" [routerLink]="['/login']" expand="block"  id="click-trigger">
+                <ion-icon class="iconsignin" name="log-in-outline"></ion-icon>   SIGN IN</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+<ion-footer class="footer">
+    <ion-toolbar>
+      <ion-title>Dreamin Big, Doing Great, Soaring High</ion-title>
+    </ion-toolbar>
+</ion-footer>
+       
 </ion-content>

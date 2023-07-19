@@ -1,0 +1,61 @@
+.donation-page {
+    --ion-background-color: #023020;
+   
+  }
+  
+  .donation-card {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .donation-card ion-card-header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    --ion-text-color: #fff;
+    .load{
+        margin-left: 250px;
+        position: inherit;
+    }
+    .load :hover{
+        color: black;
+    }
+    
+  }
+  
+  .donation-card ion-card-title {
+    font-size: 18px;
+    padding: 10px;
+   
+    .text{
+        --ion-text-color: #fff;
+    }
+  }
+  
+  .donation-card ion-card-content {
+    padding: 10px;
+    --ion-text-color: #fff;
+  }
+  
+  .donation-card ion-item {
+    --ion-text-color: #fff;
+  }
+  
+  .donation-card ion-input {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    --ion-text-color: #fff;
+  }
+  
+  ion-content {
+    --background: linear-gradient(120deg, #168108 0%, #f8faf8 100%);
+
+  }
+  .bg-color{
+    --background: green;
+  }  
+  .headtitle{
+    color: #fff;
+  }

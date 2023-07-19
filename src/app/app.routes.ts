@@ -9,5 +9,14 @@ export const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full',
+  },   {
+    path: 'todo',
+    loadComponent: () => import('./todo/todo.page').then( m => m.TodoPage)
   },
+  {
+    path: 'datetime',
+    loadComponent: () => import('./datetime/datetime.page').then( m => m.DatetimePage)
+  },
+  
+ 
 ];

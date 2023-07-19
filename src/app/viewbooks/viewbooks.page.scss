@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend:wght@100&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+ion-content {
+    font-family: sans-serif;
+    --background: linear-gradient(112.1deg, rgb(5, 141, 0) 11.4%, rgb(14, 90, 21) 11.4%);
+    .all{
+        --background: linear-gradient(112.1deg, rgb(5, 141, 0) 11.4%, rgb(14, 90, 21) 11.4%);
+    }
+}
+ion-thumbnail{
+    --background: linear-gradient(112.1deg, rgb(5, 141, 0) 11.4%, rgb(14, 90, 21) 11.4%);
+    .ion-margin-end{
+        align-items: center;
+        position: relative;
+        
+    }
+}
+ion-label{
+    font-family: 'Unna', serif;
+}
+
+.footer{
+    margin-top: 10px;
+    margin-left: 0px;
+    ion-toolbar{
+      --background: #0d331f;
+      position: relative;
+      margin: 0;
+      margin-left: 0;
+    }
+    ion-title{
+      font-size: 15px;
+      color: #fff;
+      text-align: center;
+      font-family: 'Great Vibes', cursive;
+      margin: 0;
+    }
+  }

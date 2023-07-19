@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar class="tool">
+    <ion-back-button class="but" defaultHref="/dashboard" color="light"></ion-back-button>
+    <ion-title class="ion-text-center" color="light">Date and Time</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label color="dark">Date</ion-label>
+    <ion-datetime display-format="DD MMMM YYYY" [(ngModel)]="selectedDate"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Time</ion-label>
+    <ion-datetime display-format="h:mm A" picker-format="h mm A" [(ngModel)]="selectedTime"></ion-datetime>
+  </ion-item>
+</ion-content>
